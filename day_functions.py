@@ -1,10 +1,3 @@
-"""
-Game that simulates a student's 
-day in the life at Holy Cross, 
-given user input to determine 
-the student's accomplishments and 
-productivity level of the day.
-"""
 from user_input import *
 from constants import AFTERNOON_ACTIVITIES, DINNER_OPTIONS
 import random

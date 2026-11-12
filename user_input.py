@@ -128,7 +128,7 @@ def participate():
                 if 0<=participate<=10:
                     return participate 
                 else:
-                    print("Please enter a number between 1 and 10")
+                    print("Please enter a number between 0 and 10")
            except ValueError:
                 print("Please enter a valid whole number!")
 
@@ -211,7 +211,7 @@ def dinner_choice_input(affordable):
      Output: Valid dinner choice
      """
 
-     choice=input("What will you have for dinner?")
+     choice=input("What will you have for dinner?").strip()
 
      while choice not in affordable:
           print("Invalid choice! Choose from affordable options!")
